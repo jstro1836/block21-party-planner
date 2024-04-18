@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Block 21 Workshop</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+    <h1>Event Manager</h1>
+    <div id="event-list"></div>
+    
+    <h2>Add New Event</h2>
+    <form id="add-event-form">
+      <label for="eventName">Event Name:</label>
+      <input type="text" id="eventName" name="eventName" required>
+
+      <label for="eventDescription">Description: </label>
+      <textarea id="eventDescription" name="eventDescription" required></textarea>
+      
+      <label for="eventDate">Event Date:</label>
+      <input type="date" id="eventDate" name="eventDate" required>
+
+      <label for="eventLocation">Location:</label>
+      <input type="text" id="eventLocation" name="eventLocation" required>
+
+      <button type="submit" id="add-event-button">Add Event</button>
+    </form>
+</body>
+</html>
